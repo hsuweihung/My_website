@@ -36057,7 +36057,6 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
-        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -36160,7 +36159,6 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         blockquote
         {
-        font-style: italic;
         padding-left: 20px;
         border-width: 4px;
         margin-top: 20px;
@@ -36312,7 +36310,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > blockquote,
         blockquote
         {
-        border-color: #326af2;
+        border-color: #999999;
         }
         /** color-rules **/
 
@@ -36424,19 +36422,19 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: -55px;
-    margin-right: 19px;
+    margin-right: 12px;
     margin-bottom: 32px;
   }
 
   .u-header .u-nav-2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     width: 336px;
     font-weight: 700;
     margin: 29px auto 0;
   }
 }
 .u-footer .u-sheet-1 {
-  min-height: 172px;
+  min-height: 170px;
 }
 
 .u-footer .u-image-1 {
@@ -36456,7 +36454,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 157px;
   min-width: 72px;
   white-space: nowrap;
-  margin: -78px 97px 0 auto;
+  margin: -79px 97px 0 auto;
 }
 
 .u-footer .u-icon-1 {
@@ -36469,7 +36467,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-1 {
   width: 631px;
-  margin: -42px auto 60px;
+  margin: -41px auto 60px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -36479,6 +36477,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-social-icons-1 {
     width: 157px;
     margin-top: -77px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: -42px;
   }
 }
 @media (max-width: 991px) {
