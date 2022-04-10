@@ -444,6 +444,7 @@
     margin-right: initial;
     margin-left: initial;
     width: auto;
+    font-size: 1.125rem;
   }
 }
 
@@ -472,6 +473,7 @@
 
   .u-section-4 .u-text-3 {
     margin-top: 64px;
+    font-size: 1.125rem;
   }
 
   .u-section-4 .u-image-2 {
@@ -594,6 +596,7 @@
     width: auto;
     margin-top: 33px;
     margin-bottom: 60px;
+    font-size: 1.125rem;
   }
 }
 
@@ -795,6 +798,7 @@
   .u-section-8 .u-text-2 {
     width: auto;
     margin-top: 27px;
+    font-size: 1.125rem;
   }
 
   .u-section-8 .u-image-1 {
@@ -882,4 +886,10 @@
 
 .active {
   color: #b3b3b3;
+}
+
+@media (max-width:767px) {
+  .mobile {
+    font-size: 18px;
+  }
 }
